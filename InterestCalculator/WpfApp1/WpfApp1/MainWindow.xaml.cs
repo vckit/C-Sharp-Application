@@ -111,5 +111,10 @@ namespace WpfApp1
         {
             Price(txbStartCapital);
         }
+
+        private void txbPrecent_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Price(txbPrecent);
+        }
     }
 }

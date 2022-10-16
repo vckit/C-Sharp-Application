@@ -14,7 +14,7 @@
             <TextBlock Text="Изначальная сумма: "/>
             <TextBox Width="200" Name="txbStartCapital" PreviewTextInput="txbStartCapital_PreviewTextInput" TextChanged="txbStartCapital_TextChanged"/>
             <TextBlock Text="Процентная ставка (%):"/>
-            <TextBox Width="200" Name="txbPrecent" PreviewTextInput="txbPrecent_PreviewTextInput"/>
+            <TextBox Width="200" Name="txbPrecent" PreviewTextInput="txbPrecent_PreviewTextInput" TextChanged="txbPrecent_TextChanged"/>
             <TextBlock Text="На сколько лет?"/>
             <TextBox Width="200" Name="txbCountYear" PreviewTextInput="txbCountYear_PreviewTextInput"/>
             <TextBlock Text="Процесс начисления:"/>
